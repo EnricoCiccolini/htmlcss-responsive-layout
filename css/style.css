@@ -3,6 +3,33 @@
     padding: 0;
     box-sizing: border-box;
   }
-  *{
-    background-color: blue;
+
+  /* immagini*/
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* container*/
+  .container{
+    max-height: 1100;
+    margin: 0 auto;
+    
+
+  }
+
+/* padding*/
+.pad-1rm{
+    padding: 1rem;
+}
+  
+
+
+
+    /* background*/
+  main{
+    background-color: #f6f5f3;
+  }
+  .bg-bianco{
+  background-color: #ffffff;
   }
