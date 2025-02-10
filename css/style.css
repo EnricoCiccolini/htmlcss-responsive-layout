@@ -25,6 +25,10 @@ img {
     height: 100%;
     margin: 0 auto;
 }
+.container-img {
+    height: 100%;
+    margin: 0 auto;
+}
 
 .cont-img {
     max-height: 100%;
@@ -152,9 +156,14 @@ hr{
     .banner{
         display: inline;
     }
+    .clearflix{
+        overflow: auto;
+        
+    }
 
     .float{
         float: left;
+        width: 20%;
     }
 
 }
@@ -177,5 +186,12 @@ hr{
     .cont-lista {
         width: 50%;
         flex-shrink: 1;
+    }
+    .hidden{
+        display: inline;
+    }
+    .flex-footer{
+        display: flex;
+        justify-content: space-between;
     }
 }
