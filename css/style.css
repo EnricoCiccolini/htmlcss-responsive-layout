@@ -32,6 +32,7 @@ img {
 
 .cont-img {
     max-height: 100%;
+    margin: 0 auto;
 }
 
 .div5 {
@@ -96,6 +97,13 @@ li span{
 .tx-viola{
     color: #7c69a4;
     
+}
+/*spazziatura*/
+h2{
+    margin: 1rem;
+}
+hr{
+    margin: 1rem;
 }
 
 /* display*/
@@ -165,11 +173,19 @@ hr{
         float: left;
         width: 20%;
     }
-
-}
+    .padsocial{
+        text-align: center;
+        width: 15%;
+        border-radius: 40%;
+        
+    }
+    }
 
 
 @media screen and (min-width:992px) {
+    main{
+        padding: 30px;
+    }
     .flex {
         display: flex;
     }
@@ -189,6 +205,9 @@ hr{
     }
     .hidden{
         display: inline;
+    }
+    .padsocial{
+        text-decoration: none;
     }
     .flex-footer{
         display: flex;
