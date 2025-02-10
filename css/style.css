@@ -19,12 +19,16 @@
   /* container*/
   .container{
     max-height: 1200px;
+    height: 100%;
     margin: 0 auto;
     
 
   }
   .cont-img{
     max-height: 100%;
+  }
+  .div5{
+    height: calc(100%/5);
   }
 
 /* padding*/
@@ -34,7 +38,11 @@
 .pad-1rm-top-bot{
     padding: 1rem 0rem;
 }
-  
+  .padsocial{
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 50%;
+  }
 
 
 
@@ -45,6 +53,7 @@
   .bg-bianco{
   background-color: #ffffff;
   }
+  .padsocial{background-color: #ffffff;}
 
   /*testo*/
   h1{
@@ -61,7 +70,21 @@
   .tradizionale {
     display: none;
   }
+  .hidden{
+    display: none;
+  }
+/* flex*/
+.flex-icon{
+    display: flex;
 
+}
+.gap{
+    gap: 10px;
+
+}
+.spacebeet{
+    justify-content: space-between;
+}
 
   @media screen and (min-width:768px){
 
