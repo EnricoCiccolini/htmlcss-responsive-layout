@@ -21,8 +21,11 @@ img {
 
 /* container*/
 .container {
-    max-height: 1200px;
-    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.float{
+    max-width: 60%;
     margin: 0 auto;
 }
 .container-img {
@@ -31,7 +34,7 @@ img {
 }
 
 .cont-img {
-    max-height: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -51,12 +54,15 @@ img {
 .padsocial {
     padding: 10px;
     border: 2px solid grey;
-    border-radius: 50%;
+    border-radius: 40px;
 }
 .pad10{
     padding: 10px;
 }
-
+hr{
+    height: 2px;
+    color: #f7972e;
+}
 /* background*/
 main {
     background-color: #f6f5f3;
@@ -100,10 +106,10 @@ li span{
 }
 /*spazziatura*/
 h2{
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 hr{
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* display*/
@@ -176,7 +182,7 @@ hr{
     .padsocial{
         text-align: center;
         width: 15%;
-        border-radius: 40%;
+        border-radius: 40px;
         
     }
     }
@@ -195,13 +201,13 @@ hr{
     }
 
     .cont-img {
-        width: 50%;
-        flex-shrink: 1;
+        width: 70%;
+        flex-grow: 1;
     }
 
     .cont-lista {
-        width: 50%;
-        flex-shrink: 1;
+        width: 30%;
+        flex-shrink: 0;
     }
     .hidden{
         display: inline;
